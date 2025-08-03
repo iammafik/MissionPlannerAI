@@ -32,7 +32,7 @@ from langgraph.prebuilt.tool_node import ToolNode
 from langgraph.graph.message import add_messages
 
 # 1.1 Plan verisi
-plan: Dict[str, str] = {"12.00": "Spor yap", "13.10": "Namaz kıl"}
+plan: Dict[str, str] = {}
 
 # 1.2 Tool'lar
 @tool
