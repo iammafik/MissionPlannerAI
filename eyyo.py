@@ -33,7 +33,7 @@ def norm_time(raw: str) -> str:
     return f"{h:02d}.{mnt:02d}"
 
 # ────────────────── Plan araçları ──────────────────
-plan: Dict[str, str] = {"12.00": "Spor yap", "13.10": "Namaz kıl"}
+plan: Dict[str, str] = {}
 
 @tool
 def AddEventToPlan(input: dict) -> str:
